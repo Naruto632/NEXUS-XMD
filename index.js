@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254794146821']
+  const ownerNumber = ['27655202842']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -112,22 +112,22 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, NEXUS-XMD Legend! ✨*
+  let up = `*👋🎉 Hello, NARUTO-XMD User! 🥺🩷*
 
-╭─〔 *🤖 NEXUS-XMD BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY Pkdriller |*  
+╭─〔 *🤖 NARUTO-XMD BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY THUGKEED TECH|*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing NEXUS-XMD!*
+*❤️ Thank you for Choosing NARUTO-XMD🥺🩷!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VbAaddE3mFYETAiho63t) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Pkdriller/NEXUS-XMD)!  
+│   Star Us [**Here**](https://github.com/Naruto632/NARUTO-XMD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY PKDRILLER_`;
+> _© MADE BY THUGKEED_TECH`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/o3mkn9.jpeg` }, caption: up })
   }
   })
